@@ -1,0 +1,7 @@
+.idea
+__pycache__
+/_postgres/
+*.mo
+*.swp
+.env*
+/static/
