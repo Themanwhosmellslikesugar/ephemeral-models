@@ -1,0 +1,11 @@
+services:
+  weather_db:
+    image: postgres:15.4-alpine3.18
+    container_name: weather_db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=weather
+    volumes:
+      - ../_postgres:/var/lib/postgresql/data
