@@ -28,4 +28,3 @@ class ForecastDay(BaseEphemeralModel):
     class Meta:
         verbose_name = 'Daily weather forecast'
         verbose_name_plural = 'Weather forecast'
-        managed = False
